@@ -1,9 +1,10 @@
 class Dog# Add your code here
+attr_accessor :dog
 @@all[]
 end
 def initialize (dog)
   new.dog = dog
-  self.dog << @@all[]
+  @@all[] << self
 end 
 def dog.all ()
   @@all []
@@ -14,5 +15,5 @@ end
 def save
   self.@@all ()
 end 
-  self.all(dog)
+  
 
